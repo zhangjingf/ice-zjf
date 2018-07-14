@@ -60,6 +60,41 @@ const asideMenuConfig = [
     path: '/welcome',
     icon: 'home',
   },
+  {
+    name: '\u8868\u683C',
+    path: '/table',
+    icon: 'home',
+  },
+  {
+    name: '\u7EFC\u5408\u56FE\u8868',
+    path: '/picture',
+    icon: 'home',
+  },
+  {
+    name: '\u6587\u672C\u7F16\u8F91',
+    path: '/edit',
+    icon: 'home',
+  },
+  {
+    name: '\u8868\u5355\u9A8C\u8BC1',
+    path: '/form',
+    icon: 'home',
+  },
+  {
+    name: '\u89C6\u9891',
+    path: '/video',
+    icon: 'home',
+  },
+  {
+    name: '\u6CE8\u518C',
+    path: '/register',
+    icon: 'home',
+  },
+  {
+    name: '\u767B\u9646',
+    path: '/login',
+    icon: 'home',
+  },
 ];
 
 export { headerMenuConfig, asideMenuConfig };

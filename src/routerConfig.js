@@ -7,23 +7,67 @@ import Home from './pages/Home';
 import Page3 from './pages/Page3';
 import HeaderAsideFooterResponsiveLayout from './layouts/HeaderAsideFooterResponsiveLayout';
 import Welcome from './pages/Welcome';
+
+import TableDemo from './pages/TableDemo';
+import PictureDemo from './pages/PictureDemo';
+import EditDemo from './pages/EditDemo';
+import FormDemo from './pages/FormDemo';
+import VideoDemo from './pages/VideoDemo';
+import RegisterDemo from './pages/RegisterDemo';
+import BlankLayout from './layouts/BlankLayout';
+import LoginDemo from './pages/LoginDemo';
 import NotFound from './pages/NotFound';
 
 const routerConfig = [
-  {
-    path: '/',
-    layout: BasicLayout,
-    component: Home,
-  },
   {
     path: '/page3',
     layout: HeaderAsideFooterResponsiveLayout,
     component: Page3,
   },
   {
+    path: '/edit',
+    layout: HeaderAsideFooterResponsiveLayout,
+    component: EditDemo,
+  },
+  {
     path: '/welcome',
     layout: HeaderAsideFooterResponsiveLayout,
     component: Welcome,
+  },
+  {
+    path: '/table',
+    layout: HeaderAsideFooterResponsiveLayout,
+    component: TableDemo,
+  },
+  {
+    path: '/picture',
+    layout: HeaderAsideFooterResponsiveLayout,
+    component: PictureDemo,
+  },
+  {
+    path: '/',
+    layout: BasicLayout,
+    component: Home,
+  },
+  {
+    path: '/form',
+    layout: HeaderAsideFooterResponsiveLayout,
+    component: FormDemo,
+  },
+  {
+    path: '/video',
+    layout: HeaderAsideFooterResponsiveLayout,
+    component: VideoDemo,
+  },
+  {
+    path: '/register',
+    layout: BlankLayout,
+    component: RegisterDemo,
+  },
+  {
+    path: '/login',
+    layout: BlankLayout,
+    component: LoginDemo,
   },
   {
     path: '*',
