@@ -16,18 +16,19 @@ import VideoDemo from './pages/VideoDemo';
 import RegisterDemo from './pages/RegisterDemo';
 import BlankLayout from './layouts/BlankLayout';
 import LoginDemo from './pages/LoginDemo';
+import SlideDemo from './pages/SlideDemo';
 import NotFound from './pages/NotFound';
 
 const routerConfig = [
   {
+    path: '/form',
+    layout: HeaderAsideFooterResponsiveLayout,
+    component: FormDemo,
+  },
+  {
     path: '/page3',
     layout: HeaderAsideFooterResponsiveLayout,
     component: Page3,
-  },
-  {
-    path: '/edit',
-    layout: HeaderAsideFooterResponsiveLayout,
-    component: EditDemo,
   },
   {
     path: '/welcome',
@@ -50,9 +51,9 @@ const routerConfig = [
     component: Home,
   },
   {
-    path: '/form',
+    path: '/edit',
     layout: HeaderAsideFooterResponsiveLayout,
-    component: FormDemo,
+    component: EditDemo,
   },
   {
     path: '/video',
@@ -68,6 +69,11 @@ const routerConfig = [
     path: '/login',
     layout: BlankLayout,
     component: LoginDemo,
+  },
+  {
+    path: '/slide',
+    layout: BlankLayout,
+    component: SlideDemo,
   },
   {
     path: '*',

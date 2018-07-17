@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import AbilityIntroduction from './components/AbilityIntroduction';
+import ApplicationProgress from './components/ApplicationProgress';
 
 export default class Page3 extends Component {
   static displayName = 'Page3';
@@ -13,6 +14,7 @@ export default class Page3 extends Component {
     return (
       <div className="page3-page">
         <AbilityIntroduction />
+        <ApplicationProgress />
       </div>
     );
   }

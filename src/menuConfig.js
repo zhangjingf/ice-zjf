@@ -95,6 +95,11 @@ const asideMenuConfig = [
     path: '/login',
     icon: 'home',
   },
+  {
+    name: '\u8F6E\u64AD',
+    path: '/slide',
+    icon: 'home',
+  },
 ];
 
 export { headerMenuConfig, asideMenuConfig };

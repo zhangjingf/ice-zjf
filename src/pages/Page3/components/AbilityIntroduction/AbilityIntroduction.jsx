@@ -79,7 +79,6 @@ export default class AbilityIntroduction extends Component {
     return (
       <div style={styles.container}>
         <div style={styles.title}>我们的能力</div>
-        <div style={styles.subtitle}>&lt; Distinguishing Feature &gt;</div>
         <Row wrap style={styles.group}>
           {this.renderAblities(abilities)}
         </Row>
