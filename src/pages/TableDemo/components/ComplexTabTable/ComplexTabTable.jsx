@@ -142,6 +142,7 @@ export default class ComplexTabTable extends Component {
   };
 
   editItem = (record, e) => {
+    console.log(record, e);
     e.preventDefault();
     // TODO: record 为该行所对应的数据，可自定义操作行为
   };
@@ -176,11 +177,13 @@ export default class ComplexTabTable extends Component {
   };
 
   changePage = (currentPage) => {
+    console.log('currentPage:', currentPage);
     this.queryCache.page = currentPage;
     this.fetchData();
   };
 
   onTabChange = (tabKey) => {
+    console.log('ontabchange', tabKey);
     const firstTabCatId = this.state.tabList.find((item) => {
       return item.type === tabKey;
     }).subCategories[0].id;

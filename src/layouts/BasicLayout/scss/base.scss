@@ -39,3 +39,11 @@ body {
     width: 100%;
   }
 }
+.ice-layout-fixable .ice-layout-section {
+  overflow-y: scroll;
+}
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  background: rgba(255, 255, 255, 0);
+}

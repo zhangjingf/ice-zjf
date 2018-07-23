@@ -63,7 +63,7 @@ const asideMenuConfig = [
   {
     name: '\u8868\u683C',
     path: '/table',
-    icon: 'home',
+    icon: 'table',
   },
   {
     name: '\u7EFC\u5408\u56FE\u8868',
@@ -98,6 +98,11 @@ const asideMenuConfig = [
   {
     name: '\u8F6E\u64AD',
     path: '/slide',
+    icon: 'home',
+  },
+  {
+    name: '\u57FA\u7840\u4FE1\u606F',
+    path: '/info',
     icon: 'home',
   },
 ];
