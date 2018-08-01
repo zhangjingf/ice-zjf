@@ -73,7 +73,7 @@ const routerConfig = [
   },
   {
     path: '/slide',
-    layout: BlankLayout,
+    layout: BasicLayout,
     component: SlideDemo,
   },
   {

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import SimpleSlider from './components/SimpleSlider';
+import './SlideDemo.scss';
 
 export default class SlideDemo extends Component {
   static displayName = 'SlideDemo';
