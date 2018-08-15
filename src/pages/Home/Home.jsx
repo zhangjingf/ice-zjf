@@ -55,8 +55,6 @@ export default class Home extends Component {
     ctx.beginPath();
     for (let x = startX; x < startX + canvasWidth; x += 20 / canvasWidth) {
       const y = waveHeight * Math.sin(((startX + x) * waveWidth) + xoffset);
-      // points.push([x, (canvasHeight / 2) + y]);
-      // ctx.lineTo(x, (canvasHeight / 2) + y);
       points.push([x, ((1 - nowRange) * canvasHeight) + y]);
       ctx.lineTo(x, ((1 - nowRange) * canvasHeight) + y);
     }
