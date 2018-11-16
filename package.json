@@ -7,7 +7,7 @@
     "email": "ice-admin@alibaba-inc.com"
   },
   "dependencies": {
-    "@antv/data-set": "^0.8.0",
+    "@antv/data-set": "^0.8.9",
     "@icedesign/base": "^0.2.2",
     "@icedesign/container": "^0.1.2",
     "@icedesign/data-binder": "^0.1.0",
@@ -27,22 +27,22 @@
     "foundation-symbol": "^0.1.0",
     "node-sass": "^4.9.2",
     "prop-types": "^15.5.8",
-    "react": "^16.4.1",
+    "react": "^16.4.2",
     "react-document-title": "^2.0.3",
     "react-dom": "^16.4.1",
-    "react-router": "^4.2.0",
+    "react-router": "^4.3.1",
     "react-router-dom": "^4.2.2",
     "video.js": "^6.7.3"
   },
   "devDependencies": {
     "axios": "^0.17.1",
-    "babel-eslint": "^8.0.3",
+    "babel-eslint": "^8.2.6",
     "eslint": "^4.13.1",
     "eslint-config-airbnb": "^16.1.0",
     "eslint-plugin-babel": "^4.1.1",
     "eslint-plugin-import": "^2.8.0",
-    "eslint-plugin-jsx-a11y": "^6.0.3",
-    "eslint-plugin-react": "^7.5.1",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-react": "^7.11.1",
     "ice-scripts": "^1.1.1"
   },
   "scripts": {
@@ -64,5 +64,10 @@
     "primaryColor": "#3080FE",
     "secondaryColor": "#FFC107"
   },
-  "proxyConfig": {}
+  "proxyConfig": {
+    "http://test-ice.zjf.com": {
+      "enable": true,
+      "target": "http://192.168.202.3:4444"
+    }
+  }
 }
